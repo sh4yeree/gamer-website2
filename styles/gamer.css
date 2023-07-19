@@ -33,7 +33,7 @@ margin-top: 30px;
 color:#0B0223;
 
 }
-#nav-G{
+.nav-G{
     font-size: 1.25em;
 font-style: normal;
 font-weight: 700;
@@ -361,4 +361,45 @@ background-clip: text;
 border: #FF42A5 solid 2px;
 border-radius: 50px;
 
+}
+.footer-div{
+    background: #0B0223;
+}
+.footer{
+    display: flex;
+    
+    align-items: center;
+}
+.footer-icon{
+    margin-left: 500px;
+}
+.footer-title{
+    color: #FFF;
+    text-align: center;
+    margin-left: 10px;
+font-size: 3em;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.footer-list{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.footer-list li{
+    list-style: none;
+    color: #FFF;
+text-align: center;
+font-size: 1em;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.footer-list li a{
+    text-decoration: none;
+}
+.footer-icon-container{
+    
 }
