@@ -47,16 +47,41 @@ color: #FF42A5;
 }
 .list{
     display: flex;
-    margin-left: 600px;
+    margin-left: 450px;
+    align-items: center;
 }
 nav li{
     list-style: none;
+    color: #3C354F;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+    
+}
+
+#ab{
     margin-right: 30px;
 }
+
+#dev{
+    margin-right: 30px;
+}
+
 #follow{
     border-radius: 8px;
 background: rgba(11, 2, 35, 0.10);
-padding: 10px;
+padding: 15px;
+display: flex;
+}
+#yt{
+    width: 25px;
+    height: 19px;
+    padding-left: 10px;
+}
+#tktk{
+    padding-left: 10px;
+    height: 20px ;
 }
 nav li a{
     text-decoration: none;
