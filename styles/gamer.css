@@ -516,7 +516,33 @@ line-height: normal;
     .online-img-des-container{
         display: none;
     }
-    .play-content{
-        padding: 0px;
+    .play-sec{
+        flex-direction: column;
     }
-}
+    #no-downloads
+    {
+        text-align: left;
+    }
+    #no-installs{
+        text-align: center;
+    }
+    .play-content{
+        margin: 0px;
+        margin-left: 40px;
+    }
+    .play-img-container{
+        margin: 0px;
+        margin-left: 10px;
+    }
+    .horse{
+        width: 80%;
+        margin-left: 30px;
+    }
+    .angela{
+        left: 5px;
+        width: 40%;
+    }
+    
+    
+
+
