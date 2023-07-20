@@ -523,10 +523,14 @@ line-height: normal;
         margin-bottom: 10px;
     }
     #follow{
+        align-self: flex-start;
         margin: 0;
+        margin-left: 0px;
         height: 30px;
         justify-self: flex-start;
-       margin-right: 500px;
+       margin-right: 1000px;
+       padding: 15px 20px;
+       
 
        
        
@@ -545,7 +549,7 @@ line-height: normal;
     .banner-title{
         padding: 30px;
         margin-left: 0px;
-        margin-top: 100px;
+        margin-top: 150px;
         align-items: center;
         font-size: 2em;
     }
