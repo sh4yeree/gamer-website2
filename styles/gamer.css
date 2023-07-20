@@ -578,20 +578,24 @@ line-height: normal;
     .play-sec{
         flex-direction: column;
     }
+    
     #no-downloads
     {
-        text-align: left;
+        text-align: center;
+        margin-left: 0px;
+        margin-right: 100px;
     }
     #no-installs{
         text-align: center;
+        margin-right: 10px;
     }
     .play-content{
         margin: 0px;
-        margin-left: 40px;
+        margin-left: 60px;
     }
     .play-img-container{
         margin: 0px;
-        margin-left: 10px;
+        margin-left: 30px;
     }
     .horse{
         width: 80%;
@@ -633,7 +637,7 @@ line-height: normal;
     }
     .footer-icon1{
         margin: 0;
-        margin-left: 100px;
+        margin-left: 130px;
     }
     .footer-icon-container img{
         padding-top: 40px;
