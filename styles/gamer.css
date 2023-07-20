@@ -198,18 +198,10 @@ line-height: 30px;
     margin-right: 150px;
     justify-content: space-between;
 }
-.img1{
+.img1, .img2, .img3, .img4{
     width: 250px;
 }
-.img2{
-    width: 250px;
-}
-.img3{
-    width: 250px;
-}
-.img4{
-    width: 250px;
-}
+
 
 .hover-img{
     width: 250px;
@@ -460,7 +452,7 @@ line-height: normal;
     justify-content: center;
 }
 .footer-icon1{
-    margin-left: 600px;
+    margin-left: 570px;
 }
 .footer-icon2{
     margin-right: 50px;
@@ -660,6 +652,123 @@ line-height: normal;
     }
 }
     
-    
+    @media screen and (min-width: 576px) and (max-width: 960px) {
+        
+        .list{
+            flex-direction: column;
+            margin-left:30px;
+            gap: 10px;
+        }
+        .rogue-btn, .sign-btn{
+            margin-left: 30px;
+            padding: 20px 20px;
+            font-size: 0.75em;
+        }
+        .banner-title{
+            font-size: 1.75em;
+            margin-left: 0;
+            margin-right: 0;
+            margin: 0;
+            padding-left: 40px;
+            padding-right: 0;
+            text-align: left;
+            
+        }
+
+        #goat{
+            text-align: left;
+        }
+        .banner-list{
+            font-size: 0.75em;
+            padding-left: 0;
+            padding-right: 80px;
+            text-align: left;
+        }
+
+        .banner-img{
+            width: 50%;
+            padding-left: 0;
+            margin-left: 0;
+        }
+
+        /* .img1, .img2, im */
+        .online-img-container{
+            margin-left: 80px;
+            margin-right: 0px;
+            justify-content: space-between;
+            display: grid;
+            grid-template-columns: repeat(2, 2fr);
+            gap: 20px;
+        }
+        .online-img-des-container{
+            display: none;
+        }
+        .play-sec{
+            display: grid;
+            grid-template-columns: repeat(2);
+        }
+        .play-title{
+            margin: 0;
+            padding: 0;
+            
+        }
+        
+        #no-downloads,
+        #no-installs, .play-des{
+            text-align: left;
+        }
+        .play-img-container{
+            margin-top: 30px;
+            margin-left: 200px;
+        }
+        .games-list, .games-list2{
+            flex-direction: column;
+            align-items: center
+        }
+        .games-list2{
+            margin-left: 140px;
+        }         
+        .footer-icon{
+            margin-left: 250px;
+        }
+        .footer-list{
+            display: grid;
+            grid-template-columns: repeat(2,3fr);
+            gap: 20px;
+            row-gap: 30px;
+        }
+        
+        .footer-icon-container{
+            padding-top: 30px;
+        }
+        .footer-icon2{
+            margin: 0;
+            margin-right: 100px;
+            margin-left: 30px;
+        }
+        .footer-icon1{
+            margin-left: 250px;
+            margin-right: 50px;
+        }
+        
+        .footer-p{
+            display: grid;
+            grid-template-columns: repeat(2,2fr);
+            gap: 20px;
+            margin: 0 ;
+            margin-left: 120px;
+            margin-right: 100px;
+            margin-top: 40px;
+        }
+
+    .last-footer{
+        display: grid;
+        grid-template-columns: repeat(2,3fr);
+        gap: 20px;
+        margin-left: 250px;
+        margin-right: 200px;
+        margin-top: 40px;
+    }
+    }
 
 
