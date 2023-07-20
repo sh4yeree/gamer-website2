@@ -601,12 +601,34 @@ line-height: normal;
         left: 5px;
         width: 40%;
     }
-    .games-list,
+    /* .games-list,
     .games-list2{
         flex-direction: column ;
     }
     .games-list{
         margin-left: 70px;
+    } */
+    .games-list{
+        display: grid;
+        grid-template-columns: repeat(2,2fr);
+        padding-right: 2px;
+    }
+    .games-list div{
+        width: 100px;
+    }
+    .games-list2 div{
+        width: 150px;
+    }
+    .games-list2 div:hover{
+        width: 190px;
+    }
+    .games-list div:hover{
+        width: 180px;
+    }
+    .games-list2{
+        display: grid;
+        grid-template-columns: repeat(2,2fr);
+        margin: 0;
     }
     .footer
     {
@@ -725,13 +747,20 @@ line-height: normal;
             margin-top: 30px;
             margin-left: 200px;
         }
-        .games-list, .games-list2{
-            flex-direction: column;
-            align-items: center
+
+        .games-list{
+            display:grid ;
+            grid-template-columns: repeat(3,2fr);
         }
         .games-list2{
-            margin-left: 140px;
-        }         
+            display: grid;
+            grid-template-columns: repeat(2,2fr);
+            column-gap: 50px;
+        }
+        .games-list2{
+            margin-left: 100px;
+        }
+                
         .footer-icon{
             margin-left: 250px;
         }
@@ -772,7 +801,7 @@ line-height: normal;
         margin-left: 250px;
         margin-right: 200px;
         margin-top: 40px;
+    
     }
-    }
-
+}
 
